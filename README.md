@@ -61,5 +61,12 @@ FRONT:
 3 - Executar o comando: ng s
 
 
+IMAGENS:
 
-
+![Screenshot-7](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/5-FluxoDeTrabalho.png)
+![Screenshot-1](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/1-DockerCompose.png)
+![Screenshot-2](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/2-ImagensDocker.png)
+![Screenshot-3](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/3-Consumer.png)
+![Screenshot-4](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/4-MensagemProduzida.png)
+![Screenshot-5](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/6-Invited.png)
+![Screenshot-6](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/7-Accepted.png)
