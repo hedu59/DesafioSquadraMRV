@@ -43,8 +43,8 @@ BACK:
 	
 	Fluxo:
 	{ 
-		Executar API Prototype, Atualizar Invitation existente. 
-		Ao atualizar uma Invitation o processo irá disparar uma mensagem RabbitMQ para uma fila chamada: mail_message
+		Executar API Prototype, Atualizar Invitation existente (Para Status: true). 
+		Ao atualizar uma Invitation (Para Status: true) o processo irá produzir uma mensagem RabbitMQ para uma fila chamada: mail_message
 	}
 
 5 - Abrir aplicação MessageConsumerApi: Ao Executar a aplicação o consumer começará a consumir as mensagens produzidas
@@ -61,5 +61,25 @@ FRONT:
 3 - Executar o comando: ng s
 
 
+IMAGENS:
 
+***FLUXO DE TRABALHO***
+![Screenshot-7](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/5-FluxoDeTrabalho.png)
 
+***DOCKER COMPOSE***
+![Screenshot-1](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/1-DockerCompose.png)
+
+***IMAGENS DOCKER***
+![Screenshot-2](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/2-ImagensDocker.png)
+
+***CONSUMER***
+![Screenshot-3](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/3-Consumer.png)
+
+***MENSAGEM PRODUZIDA***
+![Screenshot-4](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/4-MensagemProduzida.png)
+
+***INVITED***
+![Screenshot-5](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/6-Invited.png)
+
+***ACCEPTED***
+![Screenshot-6](https://github.com/hedu59/DesafioSquadraMRV/blob/develop/7-Accepted.png)
