@@ -1,0 +1,3 @@
+Name: LogException
+ERROR TO SEND EMAIL TO: Lucca Caio Cauã Lima
+An asynchronous call is already in progress. It must be completed or canceled before you can call this method.

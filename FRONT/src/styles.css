@@ -1,0 +1,258 @@
+@font-face {
+    font-family: SimplonMedium;
+    src: url(assets/fonts/simplonbp-medium-webfont.woff);
+    src: url(assets/fonts/simplonbp-regular-webfont.woff);
+}
+
+body {
+    /* background: rgb(7, 125, 20);
+    background: linear-gradient(90deg, rgba(7, 125, 20, 1) 0%, rgba(9, 217, 24, 1) 54%, rgba(166, 209, 124, 1) 100%);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    */
+    font-style: normal;
+    font-family: SimplonMedium;
+    background: #cad0ec;
+    padding: 20px;
+}
+
+.banner {
+
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 370px;
+    /* height: 454px; */
+    left: -302px;
+    top: -1px;
+}
+
+input {
+    background: #F5F5F5 !important;
+    border-radius: 39px !important;
+    padding: 20px;
+}
+
+input:focus {
+    border: 1px solid #FFD730 !important;
+    box-shadow: none !important;
+    color: #FFF;
+}
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #F09018;
+    border-color: #F09018;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+    color: #ffffff;
+    background-color: #F09018;
+    border-color: #F09018;
+}
+
+.btn-yellow {
+    color: #000;
+    background-color: #FFD730;
+    border-color: #FFD730;
+}
+
+.btn-yellow.disabled,
+.btn-yellow:disabled {
+    color: #000;
+    background-color: #FFD730;
+    border-color: #FFD730;
+}
+
+.banner-body {
+    padding: 36px 268px;
+
+}
+
+.texto-banner {
+    font-family: 'SimplonMedium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.conteudo {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.title-msg-sucesso {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.content-msg-sucesso {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.whatsapp {
+    vertical-align: middle;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(191deg) brightness(104%) contrast(101%);
+}
+
+.texto-promocao {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.8 !important;
+    margin-top: 20px !important;
+}
+
+.dados-confirmacao {
+    background: #F5F5F5;
+    box-shadow: 4px 4px 7px rgba(74, 74, 74, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+    ;
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+@media all and (max-width:480px) {
+    .button-mobile {
+        width: 100%;
+        display: block;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner {
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        height: 304px;
+        left: -302px;
+        top: -1px;
+    }
+
+
+    .banner-body {
+        padding: 10px 20px;
+    }
+}
+
+.texto-aviso {
+    font-size: 12px;
+    color: #41beef;
+}
+
+.msg-erro {
+    color: #ff8d00;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+
+a {
+    color: #00d15b;
+}
+
+a:hover {
+    color: #00d15b;
+}
+
+.module-loader {
+    position: fixed;
+    background: rgba(#858585, .5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.module-loader .loader {
+    position: fixed;
+    top: 45%;
+    left: calc(50% + 56px);
+    z-index: inherit;
+}
+
+.module-loader .spinner {
+    position: fixed;
+    top: 45%;
+    left: calc(50% + 56px);
+    z-index: inherit;
+}
+
+.pulse {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, .91);
+    top: 0;
+    z-index: 999;
+}
+
+.pulse .plus {
+    display: flex;
+    margin: 0 auto;
+}
+
+#loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.title-oi {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #4cb848;
+    font-weight: bold;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

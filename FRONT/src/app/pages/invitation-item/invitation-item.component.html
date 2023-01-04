@@ -1,0 +1,66 @@
+<div>
+  <mat-card>
+    <mat-card-content>
+      <div class="row">
+        <div class="col-md-1">
+          <h1>{{getFirstLetter(invitation.Contact.FullName)}}</h1>
+        </div>
+
+        <div class="col-md-11">
+          <mat-label><strong>{{invitation.Contact.FirstName}}</strong></mat-label>
+          <div class="row">
+            <mat-label>{{invitation.CreateDate | date}}</mat-label>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <mat-icon>location_on</mat-icon>
+          <mat-label>
+            {{invitation.Address.Street }} {{invitation.Address.Number}}
+          </mat-label>
+
+        </div>
+        <div class="col-md-3">
+          <mat-icon> work </mat-icon>
+          <mat-label>
+            {{invitation.CategoryDescription }}
+          </mat-label>
+        </div>
+        <div class="col-md-3">
+          <mat-icon>
+            confirmation_number</mat-icon>
+          <mat-label> Job ID:{{invitation.Id }}</mat-label>
+        </div>
+        <div *ngIf="invitation.Status == true" class="col-md-3">
+
+          <mat-label> {{invitation.Price | currency }} Lead Invitation</mat-label>
+        </div>
+      </div>
+      <hr>
+      <div *ngIf="invitation.Status == true" class="row contact">
+        <div class="col-md-3">
+        <mat-icon style="color: black;">phone</mat-icon>
+        <mat-label> {{invitation.Contact.PhoneNumber}}</mat-label>
+        </div>
+        <div class="col-md-3">
+          <mat-icon style="color: black;">mail</mat-icon>
+          <mat-label> {{invitation.Email.Valor}}</mat-label>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 style: margin-bottom:10px">
+          <mat-label>{{invitation.Description}}</mat-label>
+        </div>
+      </div>
+      <div *ngIf="invitation.Status == null" class="row">
+        <hr style="background-color: black;">
+        <button mat-raised-button color="primary" (click)="changeStatus(invitation, true)">Accept</button>
+        <button mat-raised-button color="default" (click)="changeStatus(invitation, false)">Decline</button>
+      </div>
+
+    </mat-card-content>
+  </mat-card>
+</div>

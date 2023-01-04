@@ -1,0 +1,3 @@
+Name: LogException
+ERROR TO SEND EMAIL TO: Luís Arthur Ramos
+Syntax error, command unrecognized. The server response was: 
