@@ -43,8 +43,8 @@ BACK:
 	
 	Fluxo:
 	{ 
-		Executar API Prototype, Atualizar Invitation existente. 
-		Ao atualizar uma Invitation o processo irá disparar uma mensagem RabbitMQ para uma fila chamada: mail_message
+		Executar API Prototype, Atualizar Invitation existente (Para Status: true). 
+		Ao atualizar uma Invitation (Para Status: true) o processo irá produzir uma mensagem RabbitMQ para uma fila chamada: mail_message
 	}
 
 5 - Abrir aplicação MessageConsumerApi: Ao Executar a aplicação o consumer começará a consumir as mensagens produzidas
