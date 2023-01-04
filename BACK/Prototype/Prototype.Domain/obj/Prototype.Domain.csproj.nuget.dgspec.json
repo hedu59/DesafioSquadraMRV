@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {}
+    "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {
+    "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj",
         "projectName": "Prototype.Domain",
-        "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj",
+        "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,7 +21,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -29,11 +29,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj": {
-                "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj"
+              "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj": {
+                "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj"
               }
             }
           }
@@ -45,8 +45,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Flunt": {
               "target": "Package",
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj": {
+    "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj",
+        "projectUniqueName": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj",
         "projectName": "Prototype.Shared",
-        "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj",
+        "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\Prototype.Shared.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Shared\\obj\\",
+        "outputPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -130,7 +130,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -138,8 +138,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -150,8 +150,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",

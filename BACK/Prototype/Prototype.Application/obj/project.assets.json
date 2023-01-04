@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net6.0": {
       "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
@@ -25,12 +25,12 @@
           "Microsoft.Win32.Registry": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/DnsClient.dll": {
+          "lib/net5.0/DnsClient.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/DnsClient.dll": {
+          "lib/net5.0/DnsClient.dll": {
             "related": ".xml"
           }
         }
@@ -38,12 +38,12 @@
       "FluentValidation/11.2.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/FluentValidation.dll": {
+          "lib/net6.0/FluentValidation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {
+          "lib/net6.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -975,12 +975,12 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -1810,10 +1810,10 @@
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/SharpCompress.dll": {}
+          "lib/net5.0/SharpCompress.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/SharpCompress.dll": {}
+          "lib/net5.0/SharpCompress.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/5.6.3": {
@@ -3182,7 +3182,7 @@
       },
       "Prototype.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Flunt": "1.0.5",
           "MediatR": "11.0.0",
@@ -3206,7 +3206,7 @@
       },
       "Prototype.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluentValidation": "11.2.2",
           "MediatR": "11.0.0",
@@ -9048,7 +9048,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net6.0": [
       "AutoMapper >= 10.1.1",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.2.0",
       "Microsoft.Extensions.Options >= 3.1.10",
@@ -9069,11 +9069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Application\\Prototype.Application.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Application\\Prototype.Application.csproj",
       "projectName": "Prototype.Application",
-      "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Application\\Prototype.Application.csproj",
+      "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Application\\Prototype.Application.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Application\\obj\\",
+      "outputPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9083,7 +9083,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -9091,11 +9091,11 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj"
+            "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Domain\\Prototype.Domain.csproj"
             }
           }
         }
@@ -9107,8 +9107,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",

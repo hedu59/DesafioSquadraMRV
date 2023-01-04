@@ -1,0 +1,12 @@
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\bin\Debug\net6.0\Prototype.Shared.deps.json
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\bin\Debug\net6.0\Prototype.Shared.dll
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\bin\Debug\net6.0\Prototype.Shared.pdb
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.csproj.AssemblyReference.cache
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.AssemblyInfoInputs.cache
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.AssemblyInfo.cs
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.csproj.CoreCompileInputs.cache
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.dll
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\refint\Prototype.Shared.dll
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\Prototype.Shared.pdb
+C:\Projetos\DesafioSquadraMRV\BACK\Prototype\Prototype.Shared\obj\Debug\net6.0\ref\Prototype.Shared.dll

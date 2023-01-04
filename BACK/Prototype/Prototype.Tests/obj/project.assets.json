@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net6.0": {
       "coverlet.collector/1.0.1": {
         "type": "package",
         "build": {
@@ -10158,7 +10158,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net6.0": [
       "MSTest.TestAdapter >= 2.0.0",
       "MSTest.TestFramework >= 2.0.0",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.2.0",
@@ -10178,11 +10178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Tests\\Prototype.Tests.csproj",
+      "projectUniqueName": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Tests\\Prototype.Tests.csproj",
       "projectName": "Prototype.Tests",
-      "projectPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Tests\\Prototype.Tests.csproj",
+      "projectPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Tests\\Prototype.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DesafioMRVSquadra\\BACK\\Prototype\\Prototype.Tests\\obj\\",
+      "outputPath": "C:\\Projetos\\DesafioSquadraMRV\\BACK\\Prototype\\Prototype.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10192,7 +10192,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -10200,8 +10200,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -10212,8 +10212,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
